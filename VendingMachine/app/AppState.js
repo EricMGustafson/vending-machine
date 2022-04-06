@@ -1,7 +1,7 @@
 import { EventEmitter } from "./Utils/EventEmitter.js"
 import { isValidProp } from "./Utils/isValidProp.js"
 import { Snack } from "./Models/Snack.js"
-import { Cart } from "./Models/Cart.js"
+import { CartItem } from "./Models/Cart.js"
 
 class AppState extends EventEmitter {
 
